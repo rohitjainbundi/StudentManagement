@@ -6,9 +6,10 @@ import org.springframework.stereotype.Controller;
 public class StudentController {
 
 	public static void main(String[] args) {
-		
-		System.out.println("Rohit jain");
+		int i = 5;
+		int j= 5;
+		if(i==j) {
+			System.out.println("Matched");
+		}
 	}
-	
-	
 }
